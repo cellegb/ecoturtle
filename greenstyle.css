@@ -2,6 +2,12 @@
 body.home{background-image:url(turtleHome.jpg);background-size: cover;}
 body.infopage{background-image:url(koiArticles.jpg);background-size: cover; background-position:0px -100px;}
 
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
