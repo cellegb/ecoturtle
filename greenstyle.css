@@ -2,6 +2,7 @@
 body.home{background-image:url(turtleHome.jpg);background-size: cover;}
 body.infopage{background-image:url(koiArticles.jpg);background-size: cover; background-position:0px -100px;}
 body.games{background-image:url(gamesTurtle.jpg);background-size: cover;}
+body.faq{background-image:url(faqTurtle.jpg);background-size: cover;}
 
 .header {
   background-color: #f1f1f1;
