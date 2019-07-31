@@ -11,7 +11,7 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
   background-image: url("turtleHome.jpg");
 
   /* Set a specific height */
-  min-height: 350px;
+  min-height: 250px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
