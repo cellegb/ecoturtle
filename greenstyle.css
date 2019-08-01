@@ -25,7 +25,7 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
   background-image: url("hychDolphin.jpg");
 
   /* Set a specific height */
-  min-height: 250px;
+  min-height: 150px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
