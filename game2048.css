@@ -31,6 +31,7 @@ body{
      height: 100%;
      overflow: hidden;
      position: static;
+     padding-left: 50px;
  }
 
  .logo{
