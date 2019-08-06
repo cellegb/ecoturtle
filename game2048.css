@@ -6,10 +6,11 @@ html{
 }
 
 p{
-    color: black;
+    color: white;
     font-family: "microsoft yahei";
     font-weight: bold;
     left: -10px;
+    margin-left: 25px;
 
 }
 
