@@ -32,6 +32,7 @@ body{
      overflow: hidden;
      position: static;
      padding-left: 50px;
+     z-index: -1;
  }
 
  .logo{
