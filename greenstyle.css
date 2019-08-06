@@ -139,7 +139,8 @@ li a:hover:not(.active) {
 
 .active {
   background-color: green;
+}
 
-  p, h2,h3,h4,h5,strong{
+  p,h2,h3,h4,h5,strong{
     margin-left: 25px;
   }
