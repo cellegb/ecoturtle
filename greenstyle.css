@@ -53,21 +53,7 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
   background-image: url("koiArticles.jpg");
 
   /* Set a specific height */
-  min-height: 45px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax450 {
-  /* The image used */
-  background-image: url("koiArticles.jpg");
-
-  /* Set a specific height */
-  min-height: 450px;
+  min-height: 150px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
