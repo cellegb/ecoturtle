@@ -4,13 +4,51 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
+<style>
+.bgimg {
+  background-image: url("images/gamesBird.jpg");
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+h3 {
+  height: 100%;
+  margin-left:25px;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+h2 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-left: 25px;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  margin-top:0px;
+  padding-top:25px;}
+
   .bgimg {
-		background-image: url("images/gamesBird.jpg");
-		background-size:cover;
-		opacity: 0.65;
-	}
-body {margin: 0;}
+    background-image: url("images/gamesBird.jpg");
+    min-height: 400px;
+  }
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+.bgimg{
+  background-attachment: scroll;
+}
+}
+
 </style>
 </head>
 
@@ -25,7 +63,7 @@ body {margin: 0;}
   <h1>Eco Turtle</h1>
 </div>
 
-<div class="sticky">
+
 	<ul>
 	  <li><a  href="index.html">Home</a></li>
      <li class="dropdown">
@@ -63,8 +101,7 @@ body {margin: 0;}
 		}
 
 		iframe {
-		margin: 0 auto;
-		margin-top: 30px;
+		margin: auto;
 		display:block;
 		}
 	</style>
@@ -74,5 +111,6 @@ body {margin: 0;}
 	<div>
 	<iframe src="https://scratch.mit.edu/projects/322925851/embed" allowtransparency="true" width="848.75" height="703.5" frameborder="0" scrolling="no" allowfullscreen></iframe>
 	</div>
-
+</div>
+<div class="bgimg"></div>
 	</html>

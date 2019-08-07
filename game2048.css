@@ -23,14 +23,13 @@ body{
     padding: 0;
     font-family: "microsoft yahei";
     background-color: white ;
-    overflow: hidden;
+
 }
  .container{
      margin:auto;
      width: 452px;
      height: 100%;
-     overflow: hidden;
-     position: static;
+     position: relative;
      padding-left: 50px;
      z-index: -1;
  }

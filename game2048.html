@@ -21,15 +21,50 @@ First click anywhere on the square box to start the game. To play the game use u
 	<style>
 	.bgimg {
 		background-image: url("images/gamesBird.jpg");
-		background-size:cover;
+		position: relative;
 		opacity: 0.65;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	body, html {
+		height: 100%;
+		margin: 0;
+		font: 400 15px/1.8 "Lato", sans-serif;
+		color: #777;
 	}
 
-	body{
-		margin:0;
+	h2 {
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		margin-left: 25px;
+		font: 25px "Lato", sans-serif;
+		color: white;
+		margin-top:0px;
+		padding-top:25px;}
+
+	h3 {
+		margin-left: 25px;
+		font: 400 15px/1.8 "Lato", sans-serif;
+		color: white;
+		margin-top:0;
+
 	}
+
+		.bgimg {
+			background-image: url("images/gamesBird.jpg");
+			min-height: 100px;
+		}
+
+	/* Turn off parallax scrolling for tablets and phones */
+	@media only screen and (max-device-width: 1024px) {
+	.bgimg{
+		background-attachment: scroll;
+	}
+	}
+
 	</style>
-</head>
 
     <div class="header">
   <h1>Eco Turtle</h1>
@@ -62,13 +97,15 @@ First click anywhere on the square box to start the game. To play the game use u
     </li>
 	</ul>
 	</div>
+
+	<body>
+
 <div class="bgimg">
-<p> Join the number to get 2048 tile!</p>
-	<br></br>
-	<br></br>
+<h2> 2048 </h2>
+<h3> Join the numbers to get 2048 tile!</h3>
+
 <div class="cover"></div>
 <div class="container">
-    <div class="logo">2048</div>
     <div class="scoreBar">
         <label style="position: relative; top:-13px;">score:</label>
         <label id="score"> 0</label>
