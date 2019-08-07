@@ -81,6 +81,14 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.button a{
+	color: #f1f1f1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
 .header {
   background-color: #f1f1f1;
   padding: 20px;
