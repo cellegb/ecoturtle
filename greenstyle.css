@@ -1,10 +1,8 @@
 /* sets base style for each page */
-/* body.home{background-image:url(turtleHome.jpg);background-size: cover;} */
-body.infopage{background-image:url(koiArticles.jpg);background-size: cover; background-position:0px -100px;}
-body.games{background-image:url(gamesBird.jpg);background-size: cover;}
-body.faq{background-image:url(faqTurtle.jpg);background-size: cover;}
-body.hych{background-image:url(hychDolphin.jpg);background-size: cover;}
-body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
+body.games{background-image:url(images/gamesBird.jpg);background-size: cover;}
+body.faq{background-image:url(images/faqTurtle.jpg);background-size: cover;}
+body.hych{background-image:url(images/hychDolphin.jpg);background-size: cover;}
+body.about{background-image:url(images/aboutJelly.jpg);background-size: cover;}
 
 .parallax {
   /* The image used */
