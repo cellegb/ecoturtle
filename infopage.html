@@ -1,95 +1,173 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href = "greenstyle.css">
-   <head>
-	     <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/apple-touch-icon.png?raw=true">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/tiger.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/tiger.jpg");
+  min-height: 500px;
+}
+
+.bgimg-3 {
+  background-image: url("images/tiger.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+<link rel="apple-touch-icon" sizes="180x180" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/apple-touch-icon.png?raw=true">
 <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/favicon-32x32.png?raw=true">
 <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/favicon-16x16.png?raw=true">
 <link rel="manifest" href="/site.webmanifest">
-  <title> Eco Turtle </title>
-  <style>
-  div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-	  body {margin: 0;}
-</style>
-</head>
-	
-	<div class="header">
-  <h1>Eco Turtle</h1>
-</div>
-	
-<div class="sticky">
-	<ul>
-	  <li><a  href="index.html">Home</a></li>
-     <li class="dropdown">
-      <a class="active" href="infopage.html" class="dropbtn">Articles</a>
-    </li>
-    <li class="dropdown">
-    <a href="games.html" class="dropbtn">Games</a>
-    <div class="dropdown-content">
-      <a href="game2048.html">2048</a>
-      <a href="sortingTrash.html">Trash Sort</a>
-      <a href="memory.html">Memory Game</a>
-    </div>
-    </li>
-    <li class="dropdown">
-    <a href="hych.html" class="dropbtn">How You Can Help</a>
-    <div class="dropdown-content">
-      <a href="atHome.html">At Home</a>
-      <a href="volunteer.html">Volunteer</a>
-      <a href="donate.html">Donate</a>
-    </div>
-    </li>
-    <li class="dropdown">
-    <a href="about.html" class="dropbtn">About Us</a>
-    </li>
-	</ul>
-	</div>
+
+<title> Eco Turtle </title>
 
 <style>
-	h1, h2, h3, h4, p{
-	color:black;
-	text-align:center;
-	}
-	</style>
+/* div.sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+} */
+body {
+  margin: 0;
+}
+</style>
+</head>
+
+<div class="header">
+  <h1>Eco Turtle</h1>
+</div>
+
+<!-- <div class="sticky"> -->
+<ul>
+  <li><a  href="index.html">Home</a></li>
+   <li class="dropdown">
+    <a  class="active" href="infopage.html" class="dropbtn">Articles</a>
+  </li>
+  <li class="dropdown">
+  <a href="games.html" class="dropbtn">Games</a>
+  <div class="dropdown-content">
+    <a href="game2048.html">2048</a>
+    <a href="sortingTrash.html">Trash Sort</a>
+    <a href="memory.html">Memory Game</a>
+  </div>
+  </li>
+  <li class="dropdown">
+  <a href="hych.html" class="dropbtn">How You Can Help</a>
+  <div class="dropdown-content">
+    <a href="atHome.html">At Home</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="donate.html">Donate</a>
+  </div>
+  </li>
+  <li class="dropdown">
+  <a href="about.html" class="dropbtn">About Us</a>
+  </li>
+</ul>
+</div>
 
 
-<h1>Articles</h1>
-<!-- THIS IS TO ADD AN IMAGE	
-<br>
-<center>
-<img src=></center>
-</br>-->
+<body>
 
-<div class="parallaxArt"></div>
-		
-<h2> Types of Pollution </h2>
-	
-<div class="parallaxArt"></div>
-	
-<h3>Air</h3>
-<p> Not only is air pollution bad for health, but it is also dangerous to the environment. One of the biggest air pollutants is caused from motor vehicle. Motor vehicles release global warming and greenhouse pollutants which cause those events. The emissions given off by motor vehicle pollution can lead to various health problems such as asthma, heart disease, chronic bronchitis, cancer, and premature death Because of these dangerous side effects of motor vehicle pollution, the issue needs to be solved. </p>
-	</p>
-<div class="parallaxArt"></div>
+<div class="bgimg-2">
+  <div class="caption">
+   <span class="border">Articles</span>
+  </div>
+</div>
 
-<h3>Water</h3>
-<p> Water pollution is the contamination of water bodies such as rivers, lakes, oceans and groundwaters that are a result of human activity. One of the biggest water pollutants is plastic which has been accumulating in the lakes and oceans and can endure thousands of years while it travels from coast to coast harming marine life. Oceanographers say water pollution is not only having an impact on our idyllic paradises but our ecosystem as a whole. </p>
-	</p>
-<div class="parallaxArt"></div>
-
-  <h3>Plastic</h3>
-  <p> Plastic has now been around for over a century and now is used in almost every industry and application, but plastic no longer has a positive reputation in the United States. In the 1960’s plastic debris was first observed in the ocean which resulted in an increase in American awareness for environmental issues. The dangers of chemical pesticides on the environment have been exposed as more studies have been tested alongside concerns about the increasing of plastic pollution. During the 1970’s and 1980’s, the reputation of plastic fell further down as anxiety about waste expanded. Plastic pollution has become an epidemic in the United States that will only worsen if simple changes aren’t made.
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Types of Pollution</h3>
+  <h4 style="text-align:center;">Air</h4>
+  <p>Not only is air pollution bad for health, but it is also dangerous to the environment. One of the biggest
+    air pollutants is caused from motor vehicle. Motor vehicles release global warming and greenhouse pollutants
+    which cause those events. The emissions given off by motor vehicle pollution can lead to various health
+    problems such as asthma, heart disease, chronic bronchitis, cancer, and premature death Because of these dangerous
+    side effects of motor vehicle pollution, the issue needs to be solved.</p>
+  <h4 style="text-align:center;">Water</h4>
+  <p> Water pollution is the contamination of water bodies such as rivers, lakes, oceans and groundwaters that are a
+    result of human activity. One of the biggest water pollutants is plastic which has been accumulating in the lakes
+    and oceans and can endure thousands of years while it travels from coast to coast harming marine life. Oceanographers
+    say water pollution is not only having an impact on our idyllic paradises but our ecosystem as a whole. </p>
+  	</p>
+  <h4 style="text-align:center;">Plastic</h4>
+  <p> Plastic has now been around for over a century and now is used in almost every industry and application, but plastic
+    no longer has a positive reputation in the United States. In the 1960’s plastic debris was first observed in the ocean
+    which resulted in an increase in American awareness for environmental issues. The dangers of chemical pesticides on the
+    environment have been exposed as more studies have been tested alongside concerns about the increasing of plastic pollution.
+    During the 1970’s and 1980’s, the reputation of plastic fell further down as anxiety about waste expanded. Plastic pollution
+    has become an epidemic in the United States that will only worsen if simple changes aren’t made.
   </p>
+</div>
 
-<div class="parallaxArt"></div>
 
-<h4>For more information go to:</h4>
-<button class="button"><a href="https://www.worldwildlife.org/threats/pollution">World Wide Life</a></button>
-<button class="button"><a href="https://www.livescience.com/22728-pollution-facts.html">Life Science</a></button>
-<button class="button"><a href="https://www.pachamama.org/environmental-awareness">Pachamama Alliance</a></button>
+ <div class="bgimg-2">
+  <div class="caption">
+  </div>
+</div>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h4>For more information go to:</h4>
+  <button class="button"><a href="https://www.worldwildlife.org/threats/pollution">World Wide Life</a></button>
+  <button class="button"><a href="https://www.livescience.com/22728-pollution-facts.html">Life Science</a></button>
+  <button class="button"><a href="https://www.pachamama.org/environmental-awareness">Pachamama Alliance</a></button>
+</div>
+<!-- <div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  </div>
+</div> -->
 
+
+
+</body>
 </html>

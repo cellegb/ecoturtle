@@ -1,8 +1,3 @@
-/* sets base style for each page */
-body.games{background-image:url(images/gamesBird.jpg);background-size: cover;}
-body.faq{background-image:url(images/faqTurtle.jpg);background-size: cover;}
-body.hych{background-image:url(images/hychDolphin.jpg);background-size: cover;}
-body.about{background-image:url(images/aboutJelly.jpg);background-size: cover;}
 
 .parallax {
   /* The image used */
