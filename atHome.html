@@ -1,126 +1,196 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href = "greenstyle.css">
-
-
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/apple-touch-icon.png?raw=true">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/hychDolphin.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/hychDolphin.jpg");
+  min-height: 500px;
+}
+
+.bgimg-3 {
+  background-image: url("images/hychDolphin.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+<link rel="apple-touch-icon" sizes="180x180" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/apple-touch-icon.png?raw=true">
 <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/favicon-32x32.png?raw=true">
 <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/favicon-16x16.png?raw=true">
 <link rel="manifest" href="/site.webmanifest">
-  <title> Eco Turtle </title>
-  <style>
-  div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+
+<title> Eco Turtle </title>
+
+<style>
+/* div.sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+} */
+body {
+  margin: 0;
 }
-body {margin: 0;}
 </style>
 </head>
 
-  <div class="header">
+<div class="header">
   <h1>Eco Turtle</h1>
 </div>
 
-<div class="sticky">
-	<ul>
-	  <li><a  href="index.html">Home</a></li>
-     <li class="dropdown">
-      <a href="infopage.html" class="dropbtn">Articles</a>
-    </li>
-    <li class="dropdown">
-    <a href="games.html" class="dropbtn">Games</a>
-    <div class="dropdown-content">
-      <a href="game2048.html">2048</a>
-      <a href="sortingTrash.html">Trash Sort</a>
-      <a href="memory.html">Memory Game</a>
-    </div>
-    </li>
-    <li class="dropdown">
-    <a class="active" href="hych.html" class="dropbtn">How You Can Help</a>
-    <div class="dropdown-content">
-      <a class="active" href="atHome.html">At Home</a>
-      <a href="volunteer.html">Volunteer</a>
-      <a href="donate.html">Donate</a>
-    </div>
-    </li>
-    <li class="dropdown">
-    <a href="about.html" class="dropbtn">About Us</a>
-    </li>
-	</ul>
-	</div>
-
-	<body>
-      <style>
-      p{
-          margin-bottom:25px;
-        }
-
-        h3,h4,p,strong, h2{
-          margin-left: 25px;
-          margin-right: 600px;
-        }
-        </style>
-
-<h2>How You Can Help at Home</h2>
-
-<div class="parallaxDonate"></div>
+<!-- <div class="sticky"> -->
+<ul>
+  <li><a  href="index.html">Home</a></li>
+   <li class="dropdown">
+    <a href="infopage.html" class="dropbtn">Articles</a>
+  </li>
+  <li class="dropdown">
+  <a href="games.html" class="dropbtn">Games</a>
+  <div class="dropdown-content">
+    <a href="game2048.html">2048</a>
+    <a href="sortingTrash.html">Trash Sort</a>
+    <a href="memory.html">Memory Game</a>
+  </div>
+  </li>
+  <li class="dropdown">
+  <a class="active" href="hych.html" class="dropbtn">How You Can Help</a>
+  <div class="dropdown-content">
+    <a href="atHome.html">At Home</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="donate.html">Donate</a>
+  </div>
+  </li>
+  <li class="dropdown">
+  <a href="about.html" class="dropbtn">About Us</a>
+  </li>
+</ul>
+</div>
 
 
-<h3>Reuse</h3>
-<h4>By reusing items more than once you can contribute towards a healthier planet.</h4>
+<body>
+
+<div class="bgimg-2">
+  <div class="caption">
+   <span class="border">How You Can Help at Home</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Reuse</h3>
+  <h4>By reusing items more than once you can contribute towards a healthier planet.</h4>
   <h4> Here are some simple methods you can incorporate into daily life:</h4>
-  <p>
-<div><p> • Bring your own reusable cup when going out to get drinks or coffee and avoid using plastic water bottles.</p></div>
-<div><p> • Get a reusable stainless steel, glass, or bamboo one to use instead of a plastic straw.</p></div>
-<div><p> • Bring your reusable shopping bag to the grocery store and clothing stores.</p> </div>
-<div><p> • Reuse containers and other materials for crafts and storage.</p></div>
-<div><p> • Take your own containers for leftovers.</p> </div>
-<div><p> • Shop at second hand thrift stores.</p></div>
+  <p> • Bring your own reusable cup when going out to get drinks or coffee and avoid using plastic water bottles.
+    <br> • Get a reusable stainless steel, glass, or bamboo one to use instead of a plastic straw.
+    <br> • Bring your reusable shopping bag to the grocery store and clothing stores.
+    <br> • Reuse containers and other materials for crafts and storage.
+    <br> • Take your own containers for leftovers.
+    <br> • Shop at second hand thrift stores.</p>
+</div>
 
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
+</div>
 
-<div class="parallaxDonate"></div>
-
-
-<h3>Reduce</h3>
-<strong> Air Pollution</strong>
-  <h4> When you think of air pollution, your first thought is probably not the inside of your home, but spending so much time indoors, it is important to keep the air quality inside your home as clean as possible.</h4 >
-    <h4> Here are some simple methods you can incorporate into daily life:</h4>
-    <p>
-  <div><p> • Reduce the number of trips you take in your car or carpool if possible.</p></div>
-  <div><p> • Conserve electricity and set air conditioners no lower than 78 degrees.</p></div>
-  <div><p> • Reduce or eliminate fireplace and wood stove use.</p></div>
-  <div><p> • Keep your gas stove well ventilated.</p></div>
-  <div><p> • Use carbon monoxide detectors.</p> </div>
-  <div><p> • Avoid smoking indoors.</p></div>
-
-
-<br></br>
-<strong> Plastic Pollution</strong>
-  <h4> Typical Americans generate 1.6 millions tons of household waste per year. Reducing your amount of consumption and avoiding products that are excessively packaged with boxes and plastic will generate less waste in your household and save natural resources as well.</h4 >
-    <h4> Here are some simple methods you can incorporate into daily life:</h4>
-    <p>
-  <div><p> • Purchase food, such as cereal, rice, and pasta from bulk bins and fill a reusable bag or container.</p></div>
-  <div><p> • Avoid single use daily items, such as cleaning products or make your own. </p></div>
-  <div><p> • Stop buying plastic water bottles and instead buy water per gallon.</p></div>
-  <div><p> • Keep your gas stove well ventilated.</p></div>
-  <div><p> • Use carbon monoxide detectors.</p> </div>
-  <div><p> • Avoid smoking indoors.</p></div>
-
-
-<div class="parallaxDonate"></div>
-
-<h3>Recycle</h3>
-<h4> By recycling your plastic waste, you can keep those items from ending up in a landfill and reduce the amount of new materials produced to create new objects.</h4>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Reduce</h3>
+  <h4>Air Pollution</h4>
+  <h4>When you think of air pollution, your first thought is probably not the inside of your home, but spending so much time indoors, it is important to keep the air quality inside your home as clean as possible.</h4 >
   <h4> Here are some simple methods you can incorporate into daily life:</h4>
-  <p>
-<div><p> • Learn about what items can and can’t be recycled in your area.</p> </div>
-<div><p> • Recycle the plastics you use and no longer need. </p></div>
-<div><p> • Clean leftover food and stickers from any plastic items before they are recycled.</p></div>
-<div><p> • Return single-use bags to grocery stores for them to recycle.</p></div>
-<div><p> • Buy products made from recycled materials. </p></div>
-<div><p> • Avoid buying hazardous materials that could result in a difficulty for you to recycle. Buy non-toxic products if possible. </p></div>
+  <p> • Reduce the number of trips you take in your car or carpool if possible.
+    <br> • Conserve electricity and set air conditioners no lower than 78 degrees.
+    <br> • Reduce or eliminate fireplace and wood stove use.
+    <br> • Keep your gas stove well ventilated.
+    <br> • Use carbon monoxide detectors.
+    <br> • Avoid smoking indoors.
+    <br>
+    <br>
+  </p>
+  <h4>Plastic Pollution</h4>
+  <h4> Here are some simple methods you can incorporate into daily life:</h4>
+  <p> • Purchase food, such as cereal, rice, and pasta from bulk bins and fill a reusable bag or container.
+    <br> • Avoid single use daily items, such as cleaning products or make your own.
+    <br> • Stop buying plastic water bottles and instead buy water per gallon.
+    <br> • Keep your gas stove well ventilated.
+    <br> • Use carbon monoxide detectors.
+    <br> • Avoid smoking indoors.
+  </p>
+</div>
 
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Recycle</h3>
+  <h4> By recycling your plastic waste, you can keep those items from ending up
+    in a landfill and reduce the amount of new materials produced to create new objects.</h4>
+  <h4> Here are some simple methods you can incorporate into daily life:</h4>
+  <p> • Learn about what items can and can’t be recycled in your area.
+    <br> • Recycle the plastics you use and no longer need.
+    <br> • Clean leftover food and stickers from any plastic items before they are recycled.
+    <br> • Return single-use bags to grocery stores for them to recycle.
+    <br> • Buy products made from recycled materials.
+    <br> • Avoid buying hazardous materials that could result in a difficulty for you to recycle. Buy non-toxic products if possible.
+  </p>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
+</div>
+
+</body>
 </html>
