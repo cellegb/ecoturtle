@@ -6,7 +6,7 @@ body.about{background-image:url(images/aboutJelly.jpg);background-size: cover;}
 
 .parallax {
   /* The image used */
-  background-image: url("turtleHome.jpg");
+  background-image: url("images/turtleHome.jpg");
 
   /* Set a specific height */
   min-height: 125px;
@@ -20,7 +20,7 @@ body.about{background-image:url(images/aboutJelly.jpg);background-size: cover;}
 
 .parallaxDonate {
   /* The image used */
-  background-image: url("hychDolphin.jpg");
+  background-image: url("images/hychDolphin.jpg");
 
   /* Set a specific height */
   min-height: 150px;
@@ -34,7 +34,7 @@ body.about{background-image:url(images/aboutJelly.jpg);background-size: cover;}
 
 .parallaxGames {
   /* The image used */
-  background-image: url("gamesBird.jpg");
+  background-image: url("images/gamesBird.jpg");
 
   /* Set a specific height */
   min-height: 150px;
