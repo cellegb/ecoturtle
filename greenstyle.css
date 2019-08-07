@@ -50,7 +50,7 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
 
 .parallaxArt {
   /* The image used */
-  background-image: url("koiArticles.jpg");
+  background-image: url("tiger.jpg");
 
   /* Set a specific height */
   min-height: 100px;
