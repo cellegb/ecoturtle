@@ -1,142 +1,235 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href = "greenstyle.css">
-
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/apple-touch-icon.png?raw=true">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/hychDolphin.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/hychDolphin.jpg");
+  min-height: 500px;
+}
+
+.bgimg-3 {
+  background-image: url("images/hychDolphin.jpg");
+  min-height: 200px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+<link rel="apple-touch-icon" sizes="180x180" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/apple-touch-icon.png?raw=true">
 <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/favicon-32x32.png?raw=true">
 <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/cellegb/ecoturtle/blob/master/favicon_io/favicon-16x16.png?raw=true">
 <link rel="manifest" href="/site.webmanifest">
-  <title> Eco Turtle </title>
-  <style>
-  div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+
+<title> Eco Turtle </title>
+
+<style>
+/* div.sticky {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+} */
+body {
+  margin: 0;
 }
-body {margin: 0;}
+</style>
+
+<style>
+  img{
+    float:left;
+    width:75px;
+    height:75px;
+    padding-left:25px;
+    padding-top:5px;
+    padding-right:15px;
+  }
 </style>
 </head>
 
-  <div class="header">
+<div class="header">
   <h1>Eco Turtle</h1>
 </div>
 
-<div class="sticky">
-	<ul>
-	  <li><a  href="index.html">Home</a></li>
-     <li class="dropdown">
-      <a href="infopage.html" class="dropbtn">Articles</a>
-    </li>
-    <li class="dropdown">
-    <a href="games.html" class="dropbtn">Games</a>
-    <div class="dropdown-content">
-      <a href="game2048.html">2048</a>
-      <a href="sortingTrash.html">Trash Sort</a>
-      <a href="memory.html">Memory Game</a>
+<!-- <div class="sticky"> -->
+<ul>
+  <li><a  href="index.html">Home</a></li>
+   <li class="dropdown">
+    <a href="infopage.html" class="dropbtn">Articles</a>
+  </li>
+  <li class="dropdown">
+  <a href="games.html" class="dropbtn">Games</a>
+  <div class="dropdown-content">
+    <a href="game2048.html">2048</a>
+    <a href="sortingTrash.html">Trash Sort</a>
+    <a href="memory.html">Memory Game</a>
+  </div>
+  </li>
+  <li class="dropdown">
+  <a class="active" href="hych.html" class="dropbtn">How You Can Help</a>
+  <div class="dropdown-content">
+    <a href="atHome.html">At Home</a>
+    <a href="volunteer.html">Volunteer</a>
+    <a href="donate.html">Donate</a>
+  </div>
+  </li>
+  <li class="dropdown">
+  <a href="about.html" class="dropbtn">About Us</a>
+  </li>
+</ul>
+
+
+
+<body>
+
+<div class="bgimg-2">
+  <div class="caption">
+   <span class="border">Donate</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h4 style="text-align:center;">A great and easy way to make an impact on the environment is to donate! Instead of trying to find time to take action yourself, you can donate to organizations who are already out there making a difference to help conserve the environment!</h4>
+  <p style="text-align:center;">Click on the charity's icon to be redirected to their donation page! </p>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="https://act.350.org/donate/build/">
+  <img src="images/350.jpeg" alt="350">
+  </a>
+  <h3> 350 </h3>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="https://4ocean.com/our-products/">
+  <img src="images/4ocean.png" alt="4 Ocean">
+  </a>
+  <h3> 4Ocean</h3>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="https://acadiacenter.org/">
+  <img src="images/acadia.jpeg" alt="Acadia Center">
+  </a>
+  <h3> Acadia Center </h3>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="https://www.forestfoundation.org/donate-to-american-forest-foundation">
+  <img src="images/aff.png" alt="American Forest Foundation">
+  </a>
+  <h3> American Forest Foundation</h3>
+</div>
+
+  <div class="bgimg-3">
+    <div class="caption">
     </div>
-    </li>
-    <li class="dropdown">
-    <a class="active" href="hych.html" class="dropbtn">How You Can Help</a>
-    <div class="dropdown-content">
-      <a href="atHome.html">At Home</a>
-      <a href="volunteer.html">Volunteer</a>
-      <a class="active" href="donate.html">Donate</a>
-    </div>
-    </li>
-    <li class="dropdown">
-    <a href="about.html" class="dropbtn">About Us</a>
-    </li>
-	</ul>
-	</div>
+  </div>
 
-		<style>
-		h1, h4 {
-			margin-left: 25px;
-      margin-right: 25px;
-		}
-		h3{
-			padding-top: 30px;
-			font-size: 30px;
-		}
-		img{
-			float:left;
-			width:75px;
-			height:75px;
-			padding-left:25px;
-			padding-top:5px;
-			padding-right:15px;
-		}
-
-		</style>
-
-
-	  <h1> Donate </h1>
-	  <h4> A great and easy way to make an impact on the environment is to donate! Instead of trying to find time to take action yourself, you can donate to organizations who are already out there making a difference to help conserve the environment!</h4>
-	  <p> Click on the charity's icon to be redirected to their donation page! </p>
-<div class="parallaxDonate"></div>
-
-<div style="height:115px;background-color:white;">
-<a href="https://act.350.org/donate/build/">
-<img src="images/350.jpeg" alt="350">
-</a>
-<h3> 350 </h3>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="https://support.conservationfund.org/site/Donation2;jsessionid=00000000.app268b?idb=0&df_id=1400&1400.donation=form1&mfc_pref=T&NONCE_TOKEN=B9B6AFD8247CEAC343FC34D3CE7218D0">
+  <img src="images/fund.jpeg" alt="The Conservation Fund">
+  </a>
+  <h3> The Conservation Fund </h3>
 </div>
 
-<div class="parallaxDonate"></div>
-
-<div style="height:115px;background-color:white;">
-<a href="https://4ocean.com/our-products/">
-<img src="images/4ocean.png" alt="4 Ocean">
-</a>
-<h3> 4Ocean</h3>
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
 </div>
 
-<div class="parallaxDonate"></div>
-
-<div style="height:115px;background-color:white;">
-<a href="https://acadiacenter.org/">
-<img src="images/acadia.jpeg" alt="Acadia Center">
-</a>
-<h3> Acadia Center </h3>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="https://coral.org/donate/">
+  <img src="images/coral.jpg" alt="The Coral Reef Alliance">
+  </a>
+  <h3> Coral Reef Alliance </h3>
 </div>
 
-<div class="parallaxDonate"></div>
-
-<div style="height:115px;background-color:white;">
-<a href="https://www.forestfoundation.org/donate-to-american-forest-foundation">
-<img src="images/aff.png" alt="American Forest Foundation">
-</a>
-<h3> American Forest Foundation</h3>
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
 </div>
 
-<div class="parallaxDonate"></div>
-
-<div style="height:115px;background-color:white;">
-<a href="https://support.conservationfund.org/site/Donation2;jsessionid=00000000.app268b?idb=0&df_id=1400&1400.donation=form1&mfc_pref=T&NONCE_TOKEN=B9B6AFD8247CEAC343FC34D3CE7218D0">
-<img src="images/fund.jpeg" alt="The Conservation Fund">
-</a>
-<h3> The Conservation Fund </h3>
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <a href="https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=4">
+  <img src="images/Charity-Navigator.png" alt="The Charity Navigator">
+  </a>
+  <h3> More Places You can Donate </h3>
 </div>
 
-<div class="parallaxDonate"></div>
-
-
-<div style="height:115px;background-color:white;">
-<a href="https://coral.org/donate/">
-<img src="images/coral.jpg" alt="The Coral Reef Alliance">
-</a>
-<h3> Coral Reef Alliance </h3>
+<div class="bgimg-3">
+  <div class="caption">
+  </div>
 </div>
 
-<div class="parallaxDonate"></div>
-
-<div style="height:115px;background-color:white;">
-<a href="https://www.charitynavigator.org/index.cfm?bay=search.categories&categoryid=4">
-<img src="images/Charity-Navigator.png" alt="The Charity Navigator">
-</a>
-<h3> More Place You can Donate </h3>
-</div>
-
-<div class="parallaxDonate"></div>
+</body>
+</html>
