@@ -18,6 +18,9 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .parallaxDonate {
