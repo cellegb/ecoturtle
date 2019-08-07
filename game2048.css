@@ -176,7 +176,7 @@ div{
 .num2{
     /*background: #fff;
     color:#777;*/
-    background-image: url("straws.jpg");
+    background-image: url("images/straws.jpg");
     background-size: 100%;
     font-size: 100px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
@@ -186,7 +186,7 @@ div{
 }
 
 .num4{
-    background-image: url("girl.jpg");
+    background-image: url("images/girl.jpg");
     background-size: 100%;
     font-size: 100px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
@@ -196,7 +196,7 @@ div{
 }
 
 .num8{
-    background-image: url("litter.jpg");
+    background-image: url("images/litter.jpg");
     background-size: 100%;
     font-size: 100px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
@@ -204,7 +204,7 @@ div{
 }
 
 .num16{
-    background-image: url("trashybeach.jpg");
+    background-image: url("images/trashybeach.jpg");
     background-size: 100%;
     font-size: 80px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
@@ -212,49 +212,49 @@ div{
 }
 
 .num32{
-    background-image: url("hurtturtle.jpg");
+    background-image: url("images/hurtturtle.jpg");
     background-size: 100%;
     font-size: 80px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
 }
 
 .num64{
-    background-image: url("saver.jpg");
+    background-image: url("images/saver.jpg");
     background-size: 100%;
     font-size: 80px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
 }
 
 .num128{
-    background-image: url("recycle.jpg");
+    background-image: url("images/recycle.jpg");
     background-size: 100%;
     font-size: 52px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
 }
 
 .num256{
-    background-image: url("recycletrash.jpg");
+    background-image: url("images/recycletrash.jpg");
     background-size: 100%;
     font-size: 52px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
 }
 
 .num512{
-    background-image: url("compact.jpg");
+    background-image: url("images/compact.jpg");
     background-size: 100%;
     font-size: 52px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
 }
 
 .num1024{
-    background-image: url("bracelet.jpg");
+    background-image: url("images/bracelet.jpg");
     background-size: 100%;
     font-size: 52px;
     transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
 }
 
 .num2048{
-    background-image: url("wrist.jpg");
+    background-image: url("images/wrist.jpg");
     background-size: 100%;
     font-size: 52px;
 
