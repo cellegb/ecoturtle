@@ -1,14 +1,12 @@
 /* sets base style for each page */
-/* body.home{background-image:url(turtleHome.jpg);background-size: cover;} */
-body.infopage{background-image:url(koiArticles.jpg);background-size: cover; background-position:0px -100px;}
-body.games{background-image:url(gamesBird.jpg);background-size: cover;}
-body.faq{background-image:url(faqTurtle.jpg);background-size: cover;}
-body.hych{background-image:url(hychDolphin.jpg);background-size: cover;}
-body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
+body.games{background-image:url(images/gamesBird.jpg);background-size: cover;}
+body.faq{background-image:url(images/faqTurtle.jpg);background-size: cover;}
+body.hych{background-image:url(images/hychDolphin.jpg);background-size: cover;}
+body.about{background-image:url(images/aboutJelly.jpg);background-size: cover;}
 
 .parallax {
   /* The image used */
-  background-image: url("turtleHome.jpg");
+  background-image: url("images/turtleHome.jpg");
 
   /* Set a specific height */
   min-height: 125px;
@@ -25,7 +23,7 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
 
 .parallaxDonate {
   /* The image used */
-  background-image: url("hychDolphin.jpg");
+  background-image: url("images/hychDolphin.jpg");
 
   /* Set a specific height */
   min-height: 150px;
@@ -39,7 +37,7 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
 
 .parallaxGames {
   /* The image used */
-  background-image: url("gamesBird.jpg");
+  background-image: url("images/gamesBird.jpg");
 
   /* Set a specific height */
   min-height: 150px;
@@ -53,16 +51,43 @@ body.about{background-image:url(aboutJelly.jpg);background-size: cover;}
 
 .parallaxArt {
   /* The image used */
-  background-image: url("koiArticles.jpg");
+  background-image: url("images/tiger.jpg");
 
   /* Set a specific height */
-  min-height: 150px;
+  min-height: 100px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button a{
+	color: #f1f1f1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .header {
