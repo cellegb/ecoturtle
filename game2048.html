@@ -18,16 +18,17 @@ First click anywhere on the square box to start the game. To play the game use u
 <body class="games">
 <head>
   <title> Eco Turtle </title>
-  <style>
-  div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-body {margin: 0;
-background-image: url("images/gamesBird.jpg");
-background-size: cover;}
-</style>
+	<style>
+	.bgimg {
+		background-image: url("images/gamesBird.jpg");
+		background-size:cover;
+		opacity: 0.65;
+	}
+
+	body{
+		margin:0;
+	}
+	</style>
 </head>
 
     <div class="header">
@@ -61,6 +62,7 @@ background-size: cover;}
     </li>
 	</ul>
 	</div>
+<div class="bgimg">
 <p> Join the number to get 2048 tile!</p>
 	<br></br>
 	<br></br>
@@ -73,9 +75,11 @@ background-size: cover;}
         <div id="addScore"></div>
     </div>
     <div id="stage"></div>
+	</div>
+
     <!--<div id="gameOver hide">-->
         <!--<div class="overText">GameOver!</div>-->
     <!--</div>-->
-</div>
+
 </body>
 </html>
