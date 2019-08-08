@@ -46,9 +46,11 @@ First click anywhere on the square box to start the game. To play the game use u
 
 	h3 {
 		margin-left: 25px;
-		font: 400 15px/1.8 "Lato", sans-serif;
+		font: 400 17px/1.8 "Lato", sans-serif;
 		color: white;
 		margin-top:0;
+		margin-bottom: 0;
+		padding-right:25px;
 
 	}
 
@@ -79,7 +81,7 @@ First click anywhere on the square box to start the game. To play the game use u
     <li class="dropdown">
     <a class="active" href="games.html" class="dropbtn">Games</a>
     <div class="dropdown-content">
-      <a href="game2048.html">2048</a>
+      <a class="active" href="game2048.html">2048</a>
       <a href="sortingTrash.html">Trash Sort</a>
       <a href="memory.html">Memory Game</a>
     </div>
@@ -102,7 +104,10 @@ First click anywhere on the square box to start the game. To play the game use u
 
 <div class="bgimg">
 <h2> 2048 </h2>
-<h3> Join the numbers to get 2048 tile!</h3>
+<h3> Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one! </h3>
+<h3> Keep merging until you reach the 2048 tile!</h3>
+<h3> Reload the page to restart. </h3>
+<h3> While you play, this game will be going through the steps of the recycling process! </h3>
 
 <div class="cover"></div>
 <div class="container">
@@ -117,6 +122,7 @@ First click anywhere on the square box to start the game. To play the game use u
     <!--<div id="gameOver hide">-->
         <!--<div class="overText">GameOver!</div>-->
     <!--</div>-->
-
+<div style="text-align: right;">
+<h3> Original 2048 game created by Gabriele Cirulli.</h3>
 </body>
 </html>
